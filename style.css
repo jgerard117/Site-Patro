@@ -103,8 +103,34 @@ li.right{
 /* La page contact */
 
 .info_contact{
-  margin: 20px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
 }
+
+.contact_section{
+  color: #5A5A5A;
+  font-size: 24px;
+}
+
+.info{
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
 /*----------------------------------------------------------------------------*/
 /* Sert a définir les nouvelles fonctions html                                */
 /*----------------------------------------------------------------------------*/
