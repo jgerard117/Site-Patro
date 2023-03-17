@@ -1,0 +1,112 @@
+/*----------------------------------------------------------------------------*/
+/* Sert a définir la police de tout le site                                   */
+/*----------------------------------------------------------------------------*/
+
+* {
+  font-family: "Open Sans",sans-serif;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Sert a définir les propriétés des classes                                  */
+/*----------------------------------------------------------------------------*/
+
+/* Ce sont les couleurs officielles du Patro */
+.main_title{
+  margin: 10px;
+  padding: 5px;
+  color: #99CA3C;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+}
+
+.test_title{
+  margin: 10px;
+  padding: 5px;
+  color: #99CA3C;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 54px;
+  text-align: center;
+}
+
+.title_env{
+  float: left; 
+  width: calc(100% - 350px - 10px); 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.couleur_patro{
+    color: #01562D;
+    color: #FFEC00;
+    color: #99CA3C;
+}
+
+/* Le logo Patro */
+
+.logo_patro{
+  float: left; 
+  margin-right: 10px
+}
+
+/* Les classes pour la barre de navigation */
+
+li.left{
+  float: left;
+}
+
+li.right{
+  float: right;
+}
+
+.navi_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #727272;
+  position: -webkit-sticky; /* Bouge avec nous si on scroll vers le bas */
+  position: sticky;
+  top: 0;
+}
+
+.navi {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+
+.left_border{
+  border-left: 1px solid #bbb;
+}
+
+.navi:hover:not(.active) {
+  color: #99CA3C;
+}
+
+.active {
+  color: white;
+  background-color: #99CA3C;
+}
+
+/* La page contact */
+
+.info_contact{
+  margin: 20px;
+}
+/*----------------------------------------------------------------------------*/
+/* Sert a définir les nouvelles fonctions html                                */
+/*----------------------------------------------------------------------------*/
+
+
