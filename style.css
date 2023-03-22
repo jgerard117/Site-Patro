@@ -56,6 +56,30 @@
   margin-right: 10px
 }
 
+
+/*
+#
+# Classes pour le header
+#
+*/
+
+header{
+  margin: auto;
+  padding: 0 3.208% 20px 3.208%; /* 50px/960px */
+  position: relative;
+  height:130px;
+}
+
+#principale{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.75em; /* 12px/16px */
+	color:#333;
+	margin: auto;
+	width: 90.29779058597502%; /* 940px/1041px */
+	overflow: hidden;
+}
+
+
 /* Les classes pour la barre de navigation */
 
 li.left{
@@ -130,6 +154,8 @@ img.emoji {
   background: none !important;
   padding: 0 !important;
 }
+
+
 
 /*----------------------------------------------------------------------------*/
 /* Sert a définir les nouvelles fonctions html                                */
