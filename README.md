@@ -7,7 +7,7 @@
     * tuto CSS : https://www.youtube.com/watch?v=1PnVor36_40&t=386s 
 2. Se familiariser avec GitHub (comment download et upload). Si besoin **Samo** peut montrer comment installer un GitHub sur un terminal (Ubuntu de préférence).
 3. Regarder quelques sites pour avoir des idées.
-4. Demande aux gens du staff de récolter des photos et d'écrire des descriptions. 
+4. Demander aux gens du staff de récolter des photos et d'écrire des descriptions (Patro en général, section, etc.). 
 5. 
 6. 
 
