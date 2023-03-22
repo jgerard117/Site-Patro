@@ -2,6 +2,6 @@
 
 ## Liste des choses à faire
 
-1.
-2.
-3.
+1. Tous regarder un peu le HTML et le CSS. 
+2. 
+3. 
