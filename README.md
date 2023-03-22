@@ -3,9 +3,9 @@
 ## Liste des choses à faire
 
 1. Tous regarder un peu le HTML et le CSS. 
-    * tuto html : https://www.youtube.com/watch?v=PlxWf493en4
+    * tuto HTML : https://www.youtube.com/watch?v=PlxWf493en4
     * tuto CSS : https://www.youtube.com/watch?v=1PnVor36_40&t=386s 
-2. Se familiariser avec GitHub (comment download et upload).
+2. Se familiariser avec GitHub (comment download et upload). Si besoin **Samo** peut montrer comment installer un GitHub sur un terminal (Ubuntu de préférence).
 3. Regarder quelques sites pour avoir des idées.
 4. 
 5. 
