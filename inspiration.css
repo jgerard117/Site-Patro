@@ -84,7 +84,7 @@ button{
     transition: transform 0.5s;
 }
 .card1{
-    background-image: url(FIG/calendrier.jpg);
+    background-image: url(https://www.patro-chenois.be/wp-content/uploads/2014/03/Calandrier.svg);
 }
 .card2{
     background-image: url(FIG/sections.jpg);
