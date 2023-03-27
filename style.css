@@ -96,6 +96,7 @@ li.right{
   padding: 0;
   overflow: hidden;
   width: 100%;
+  border-radius: 20px;
   background-color: #727272;
   position: -webkit-sticky; /* Bouge avec nous si on scroll vers le bas */
   position: sticky;
