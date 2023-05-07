@@ -1,67 +1,220 @@
 <!DOCTYPE html>
 <html lang="fr-FR"> 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Patro don Bosco de Louvain-la-Neuve</title>
-        <link rel="stylesheet" href="inspiration.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    </head>
-    <body>
-        <div class="container">
-            <div class="navbar">
-                <img src="FIG/logo.png" class="logo">
-                <nav>
-                    <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">REGION</a></li>
-                        <li><a href="">ABOUT</a></li>
-                    </ul>
-                </nav>
-                <img src="FIG/menu.png" class="menu-icon">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patro don Bosco de Louvain-la-Neuve</title>
+    <!-- Lien css --->
+    <link rel="stylesheet" href="css/inspiration.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <a href="#" class="logo">Patro<span>LLN</span></a>
+
+        <ul class="navlist">
+            <li><a href="#acceuil" class="active">Acceuil</a></li>
+            <li><a href="#apropos">A propos</a></li>
+            <li><a href="#sections">Sections</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#contact">Nous contacter</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+     <!--acceuil-->
+    <section class="home" id="acceuil">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Bonjour</span>
+                <span class="two">Nous sommes le</span>
+            </div>
+            <h1>Patro don Bosco</h1>
+            <h3>de<span> Louvain-la-Neuve</span></h3>
+            <p>Depuis bientôt 20 ans nous vous proposons tout type d'animations 
+            pour les jeunes entre 6 et 18 ans.</p>
+            <div class="button">
+                <a href="#" class="btn">Dites nous bonjour</a>
+                <a href="#" class="btn2"><span><i class='bx bx-play'></i></span>Regrader notre animation</a>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section class="about" id="apropos">
+        <div class="about-img">
+            <img src="./FIG/camp 2020.jpg">
+        </div>
+
+        <div class="about-text">
+            <h2>A propos de <span>NOUS</span></h2>
+            <h4>Membre du Patro</h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+            blanditiis praesentium voluptatum deleniti atque corrupti quos 
+            dolores et quas molestias excepturi sint occaecati cupiditate non 
+            provident, similique sunt in culpa qui officia deserunt mollitia 
+            animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis 
+            est et expedita distinctio. Nam libero tempore, cum soluta nobis est 
+            eligendi optio cumque nihil impedit quo minus id quod maxime placeat 
+            facere possimus, omnis voluptas assumenda est, omnis dolor 
+            repellendus. </p>
+            <a href="#" class="btn">Plus d'info</a>
+        </div>
+    </section>
+
+    <!--sections-->
+    <section class="services" id="sections">
+        <div class="main-text">
+            <p>Ce que nous proposons</p>
+            <h2><span>Nos</span> Sections</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-mobile-alt'></i>
+                </div>
+                <h3>Benjamins</h3>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio 
+                cumque nihil impedit quo minus id quod maxime placeat 
+                facere possimus, omnis voluptas assumenda est, omnis dolor 
+                repellendus.</p>
+                <a href="#" class="read">Lire plus</a>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>Etincelles</h3>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio 
+                cumque nihil impedit quo minus id quod maxime placeat 
+                facere possimus, omnis voluptas assumenda est, omnis dolor 
+                repellendus.</p>
+                <a href="#" class="read">Lire plus</a>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-edit-alt"></i>
+                </div>
+                <h3>Conquérants</h3>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio 
+                cumque nihil impedit quo minus id quod maxime placeat 
+                facere possimus, omnis voluptas assumenda est, omnis dolor 
+                repellendus.</p>
+                <a href="#" class="read">Lire plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Photos-->
+    <section class="portfolio" id="photos">
+        <div class="main-text">
+            <p>Photos</p>
+            <h2><span>Nos dernières</span> activités</h2>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="./FIG/Camp_2022.jpg">
+                <div class="layer">
+                    <h5>Nos photos</h5>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio 
+                    cumque nihil impedit quo minus id quod maxime placeat 
+                    facere possimus, omnis voluptas assumenda est, omnis dolor 
+                    repellendus.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
             </div>
 
             <div class="row">
-                <div class="col">
-                    <h1>Patro LLN</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Vivamus convallis enim cursus metus egestas sollicitudin. 
-                        Sed malesuada velit eget justo mollis lobortis. In et lorem 
-                        quis ex mattis tincidunt. Aliquam posuere bibendum nibh non 
-                        euismod. Nam scelerisque est tortor, non posuere orci 
-                        interdum quis. Praesent sem lacus, scelerisque eu 
-                        sollicitudin in, convallis id odio. Aliquam quis risus eget 
-                        est sagittis elementum vitae condimentum tellus. Fusce in 
-                        congue tellus.</p>
-                    <button type="button">Recherche</button>
+                <img src="./FIG/Camp_prairie_2022.jpg">
+                <div class="layer">
+                    <h5>Nos photos</h5>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio 
+                    cumque nihil impedit quo minus id quod maxime placeat 
+                    facere possimus, omnis voluptas assumenda est, omnis dolor 
+                    repellendus.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
                 </div>
-                <div class="col">
-                    <div class="card card1">
-                        <h5>Calendrier</h5>
-                        <p> Mauris est libero, lobortis et justo eu, sodales 
-                            facilisis ipsum.</p>
-                    </div>
-                    <div class="card card2">
-                        <h5>Les sections</h5>
-                        <p> Mauris est libero, lobortis et justo eu, sodales 
-                            facilisis ipsum.</p>
-                    </div>
-                    <div class="card card3">
-                        <h5>Le staff</h5>
-                        <p> Mauris est libero, lobortis et justo eu, sodales 
-                            facilisis ipsum.</p>
-                    </div>
-                    <div class="card card4">
-                        <h5>Le camp</h5>
-                        <p> Mauris est libero, lobortis et justo eu, sodales 
-                            facilisis ipsum.</p>
-                    </div>
-                    
-                    blablabla
-                    
+            </div>
+
+            <div class="row">
+                <img src="./FIG/camp 2020.jpg">
+                <div class="layer">
+                    <h5>Nos photos</h5>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio 
+                    cumque nihil impedit quo minus id quod maxime placeat 
+                    facere possimus, omnis voluptas assumenda est, omnis dolor 
+                    repellendus.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./FIG/test.jpg">
+                <div class="layer">
+                    <h5>Nos photos</h5>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio 
+                    cumque nihil impedit quo minus id quod maxime placeat 
+                    facere possimus, omnis voluptas assumenda est, omnis dolor 
+                    repellendus.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
                 </div>
             </div>
         </div>
-    </body>
+    </section>
+
+    <!--Nous contacter-->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contactez <span>Nous!</span></h2>
+            <h4>Si vous avez une quelconque question en tête.</h4>
+            <p>Nous sommes disponibles et nous répondons rapidement.</p>
+            <div class="list">
+                <li><a href="#">Telephone</a></li>
+                <li><a href="#">Mail</a></li>
+                <li><a href="#">Réseaux</a></li>
+            </div>
+
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/patrodonboscolln"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Votre nom" required>
+                <input type="email" placeholder="Votre adresse mail" required>
+                <input type="" placeholder="Votre numéro de téléphone" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="Comment pouvonsnous vous aider ?"></textarea>
+                <input type="submit" value="Envoyer" class="submit" required>
+            </form>
+        </div>
+    </section>
+
+    <!--fin du site-->
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright © 2023 by Justin Gérard All Right Reserved</p>
+        </div>
+
+        <div class="top">
+            <a href="#acceuil"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </section>
+
+    <!--lien javascript-->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
 </html>
